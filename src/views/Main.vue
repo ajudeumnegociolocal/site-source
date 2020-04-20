@@ -49,10 +49,11 @@ export default {
       
       return {
         negocios: [
-            { nid: 4, img: "img/new-shin.png", description: "Churrasco Coreano", buttonType: "success", doeURL: "https://pagseguro.uol.com.br/checkout/nc/sender-identification.jhtml?t=de2e16e63359bc9012c3395445d862e7e5fb548fc047b288&e=true#rmcl"},
+          { nid: 6, img: "img/epromaq.png", description: "EPromaq", buttonType: "success", doeURL: "https://pag.ae/7VW8z_MG8"},
+          { nid: 5, img: "img/new-shin.png", description: "Churrasco Coreano", buttonType: "success", doeURL: "https://pagseguro.uol.com.br/checkout/nc/sender-identification.jhtml?t=de2e16e63359bc9012c3395445d862e7e5fb548fc047b288&e=true#rmcl"},
           { nid: 4, img: "img/bonometti.jpg", description: "Casa Bonometti", buttonType: "success", doeURL: "https://pag.ae/7VSEKee13"  },
           {nid: 3, img: "img/veredas.jpeg" , description: "Cozinha Vegana", buttonType: "success", doeURL: "https://pag.ae/7VSE2NFTM"  },
-          { nid: 1, img: "https://www.bananaverde.com.br/wp-content/uploads/2017/08/logo-banana-400px.png", description: "Comida natural é comida saudável.", buttonType: "success"  },
+          { nid: 1, img: "img/casa-jaya2.png", description: "Casa Jaya", buttonType: "success", doeURL: "https://pag.ae/7VSSpfi66"   },
           { nid: 2, img: "https://instagram.fcgh23-1.fna.fbcdn.net/v/t51.2885-19/s320x320/66443326_1371327579709918_3742764012178243584_n.jpg?_nc_ht=instagram.fcgh23-1.fna.fbcdn.net&_nc_ohc=nHi9-OuwwmcAX9YkSdP&oh=086ff88ee54c4799950a7b6c1936cbbe&oe=5EA2E9CC", description: "Gelatos artesanais", buttonType: "success", doeURL: "https://pag.ae/7VSEVURr3"  }
       ].sort(function(){return 0.5 - Math.random()})
         }
